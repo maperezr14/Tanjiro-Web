@@ -1117,6 +1117,17 @@ footer .content-footer .row .text-center.col-12 p {
     font-family: 'FontAwesome';
     line-height: 18px;
 }
+.body-serie .container .body-serie-content .chapters-serie .accordion .accordion-item .accordion-collapse .accordion-body .card-chapter .body-card .btn-see-chapter {
+    border: 1px solid var(--color-aqua);
+    padding: 7px 20px;
+    margin-top: 15px;
+    background: var(--color-aqua);
+    color: var(--color-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: 0.03rem;
+}
 .only-mobile {
     display: none;
 } 
@@ -1228,5 +1239,12 @@ footer .content-footer .row .text-center.col-12 p {
     }
     .about-us .container .featurette .text-featurette .featurette-heading {
         font-size: 32px;
+    }
+    .banner-serie .content-banner-series {
+        max-height: 320px;
+        padding-top: 70px;
+    }
+    .gallery-multiple .content-gallery {
+        margin-bottom: 95px;
     }
 }
