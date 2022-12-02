@@ -1133,15 +1133,18 @@ footer .content-footer .row .text-center.col-12 p {
         display: none;
     } 
     header .navbar {
-        max-width: 94%;
+        max-width: 100%;
     }
-    
+    header .navbar .container-fluid .navbar-brand {
+        margin-left: 10px;
+    }
     header .navbar .container-fluid {
         padding: 0;
     }
     header .navbar .container-fluid .navbar-toggler {
         border: 0;
         padding: 0;
+        margin-right: 10px;
     }
     header .navbar .container-fluid .navbar-toggler .navbar-toggler-icon {
         background: no-repeat;
@@ -1157,10 +1160,13 @@ footer .content-footer .row .text-center.col-12 p {
     }
     header .navbar .navbar-collapse {
         justify-content: center!important;
+        background: var(--color-dark);
     }
     header .navbar .container-fluid .navbar-nav .nav-item .nav-link {
         margin-left: 0;
         text-align: center;
+        margin-bottom: 20px;
+        color: var(--color-white);
     }
     header .navbar .container-fluid .navbar-nav {
         margin: 35px 0;
@@ -1205,5 +1211,21 @@ footer .content-footer .row .text-center.col-12 p {
     }
     .body-serie .container .body-serie-content .chapters-serie .accordion .accordion-item .accordion-collapse .accordion-body .card-chapter .body-card {
         padding-left: 0;
+    }
+    .gallery-multiple .content-gallery .multiple-items .slick-list.draggable .slick-multiple .body-multiple-item .info-multiple-item .info-extra {
+        display: inline-flex;
+    }
+    .gallery-multiple .content-gallery .multiple-items .slick-list.draggable .slick-multiple .body-multiple-item .info-multiple-item .btn-see-series {
+        display: inline-block;
+    }
+    header .navbar .container-fluid .navbar-nav .nav-item .nav-link:hover:before, header .navbar .container-fluid .navbar-nav .nav-item .nav-link.active:before {
+        width: 30%;
+    }
+    header .navbar .container-fluid .navbar-nav .nav-item .nav-link:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-us .container .featurette .text-featurette .featurette-heading {
+        font-size: 32px;
     }
 }
