@@ -1110,6 +1110,7 @@ footer .content-footer .row .text-center.col-12 p {
     height: 100%;
     background: transparent;
     z-index: 1;
+    border: 0;
 }
 .body-serie .container .body-serie-content .chapters-serie .accordion .accordion-item .accordion-header .accordion-button:after {
     background: transparent;
