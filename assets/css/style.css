@@ -1266,4 +1266,7 @@ footer .content-footer .row .text-center.col-12 p {
     .gallery-multiple .content-gallery {
         margin-bottom: 95px;
     }
+    .gallery-multiple .content-gallery .slick-dots {
+        display: none;
+    }
 }
