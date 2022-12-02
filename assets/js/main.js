@@ -1,4 +1,21 @@
 $(document).ready(function () {
+  // Change header background color on scroll
+  $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $("header").addClass("active");
+        $(".navbar-collapse.justify-content-end.collapse.show").removeClass("show");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+        $("header").removeClass("active");
+    }
+  });
+
+  // Stop Video Modal
+  $("#trailerModal").on('hidden.bs.modal', function (e) {
+    $("#trailerModal iframe").attr("src", $("#trailerModal iframe").attr("src"));
+  });
+
+
   // Sliders
   // Principal
   $('.single-item').slick({
@@ -50,6 +67,10 @@ $(document).ready(function () {
   });
 
   // Our Series
+  $(".multiple-items").not('.slick-initialized').slick({
+    prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
+    nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
+  });
   $('.multiple-items').slick({
     slidesToShow: 5,
     slidesToScroll: 3,
@@ -85,19 +106,5 @@ $(document).ready(function () {
     ]
   });
   
-  // Change header background color on scroll
-  $(window).on("scroll", function() {
-    if($(window).scrollTop() > 50) {
-        $("header").addClass("active");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-       $("header").removeClass("active");
-    }
-  });
-
-  // Stop Video Modal
-  $("#trailerModal").on('hidden.bs.modal', function (e) {
-    $("#trailerModal iframe").attr("src", $("#trailerModal iframe").attr("src"));
-  });
-
 });
+
