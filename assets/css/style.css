@@ -1269,4 +1269,41 @@ footer .content-footer .row .text-center.col-12 p {
     .gallery-multiple .content-gallery .slick-dots {
         display: none;
     }
+    header .navbar .container-fluid .rrss {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 10%;
+        margin-bottom: 45px;
+        border-top: 1px solid #e500aa;
+        padding-top: 35px;
+    }
+    header .navbar .container-fluid .rrss p {
+        color: var(--color-white);
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    header .navbar .container-fluid .rrss ul {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header .navbar .container-fluid .rrss ul li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: var(--color-white);
+        color: var(--color-fucsia);
+        margin: 0 10px;
+        border-radius: 100%;
+        line-height: 40px;
+        transition: all .3s ease;
+        font-size: 20px;
+        text-align: center;
+    }
 }
