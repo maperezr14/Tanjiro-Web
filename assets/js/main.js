@@ -31,43 +31,9 @@ $(document).ready(function () {
     nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>'
   });
 
-  // Top 5
-  $('.center').slick({
-    dots: false,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    speed: 500,
-    arrows: true,
-    prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
-    nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
-    centerMode: true,
-    centerPadding: '100px',
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          dots: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
 
   // Our Series
-  $(".multiple-items").not('.slick-initialized').slick({
+  $(".slider").not('.slick-initialized').slick({
     prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
     nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
   });
@@ -101,6 +67,41 @@ $(document).ready(function () {
           centerPadding: '40px',
           slidesToShow: 1,
           slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+   // Top 5
+   $('.center').slick({
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 500,
+    arrows: true,
+    prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
+    nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
+    centerMode: true,
+    centerPadding: '100px',
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          dots: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
         }
       }
     ]
