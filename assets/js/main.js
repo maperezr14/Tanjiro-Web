@@ -32,11 +32,160 @@ $(document).ready(function () {
   });
 
 
-  // Our Series
+ 
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    // true for mobile device
+    $(".slider").not('.slick-initialized').slick({
+      prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
+      nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
+    });
+     // Our Series
+    $('.multiple-items').slick({
+      slidesToShow: 5,
+      slidesToScroll: 3,
+      dots: true,
+      infinite: true,
+      autoplay: false,
+      speed: 500,
+      arrows: true,
+      prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
+      nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: false,
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+     // Top 5
+    $('.center').slick({
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 500,
+      arrows: true,
+      prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
+      nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
+      centerMode: true,
+      centerPadding: '100px',
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  } else{
+    // false for not mobile device
+     // Our Series
+    $('.multiple-items').slick({
+      slidesToShow: 5,
+      slidesToScroll: 3,
+      dots: true,
+      infinite: true,
+      autoplay: false,
+      speed: 500,
+      arrows: true,
+      prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
+      nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: false,
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+     // Top 5
+    $('.center').slick({
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 500,
+      arrows: true,
+      prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
+      nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
+      centerMode: true,
+      centerPadding: '100px',
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  }
+
   $(".slider").not('.slick-initialized').slick({
     prevArrow: '<span class="slick-prev"><i class="fas fa-chevron-left"></i></span>',
     nextArrow: '<span class="slick-next"><i class="fas fa-chevron-right"></i></span>',
   });
+   // Our Series
   $('.multiple-items').slick({
     slidesToShow: 5,
     slidesToScroll: 3,
@@ -54,8 +203,8 @@ $(document).ready(function () {
           arrows: true,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3,
-          slidesToScroll: 3
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       },
       {
@@ -71,9 +220,8 @@ $(document).ready(function () {
       }
     ]
   });
-
    // Top 5
-   $('.center').slick({
+  $('.center').slick({
     dots: false,
     infinite: true,
     autoplay: true,
@@ -92,7 +240,7 @@ $(document).ready(function () {
         settings: {
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 1
         }
       },
       {
