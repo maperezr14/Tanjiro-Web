@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-Light.eot');
+    src: url('AlumniSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-Light.woff2') format('woff2'),
+        url('AlumniSans-Light.woff') format('woff'),
+        url('AlumniSans-Light.ttf') format('truetype'),
+        url('AlumniSans-Light.svg#AlumniSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-Black.eot');
+    src: url('AlumniSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-Black.woff2') format('woff2'),
+        url('AlumniSans-Black.woff') format('woff'),
+        url('AlumniSans-Black.ttf') format('truetype'),
+        url('AlumniSans-Black.svg#AlumniSans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-ExtraLight.eot');
+    src: url('AlumniSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-ExtraLight.woff2') format('woff2'),
+        url('AlumniSans-ExtraLight.woff') format('woff'),
+        url('AlumniSans-ExtraLight.ttf') format('truetype'),
+        url('AlumniSans-ExtraLight.svg#AlumniSans-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-Medium.eot');
+    src: url('AlumniSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-Medium.woff2') format('woff2'),
+        url('AlumniSans-Medium.woff') format('woff'),
+        url('AlumniSans-Medium.ttf') format('truetype'),
+        url('AlumniSans-Medium.svg#AlumniSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-Thin.eot');
+    src: url('AlumniSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-Thin.woff2') format('woff2'),
+        url('AlumniSans-Thin.woff') format('woff'),
+        url('AlumniSans-Thin.ttf') format('truetype'),
+        url('AlumniSans-Thin.svg#AlumniSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-ExtraBold.eot');
+    src: url('AlumniSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-ExtraBold.woff2') format('woff2'),
+        url('AlumniSans-ExtraBold.woff') format('woff'),
+        url('AlumniSans-ExtraBold.ttf') format('truetype'),
+        url('AlumniSans-ExtraBold.svg#AlumniSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-Regular.eot');
+    src: url('AlumniSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-Regular.woff2') format('woff2'),
+        url('AlumniSans-Regular.woff') format('woff'),
+        url('AlumniSans-Regular.ttf') format('truetype'),
+        url('AlumniSans-Regular.svg#AlumniSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-Bold.eot');
+    src: url('AlumniSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-Bold.woff2') format('woff2'),
+        url('AlumniSans-Bold.woff') format('woff'),
+        url('AlumniSans-Bold.ttf') format('truetype'),
+        url('AlumniSans-Bold.svg#AlumniSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url('AlumniSans-SemiBold.eot');
+    src: url('AlumniSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('AlumniSans-SemiBold.woff2') format('woff2'),
+        url('AlumniSans-SemiBold.woff') format('woff'),
+        url('AlumniSans-SemiBold.ttf') format('truetype'),
+        url('AlumniSans-SemiBold.svg#AlumniSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
