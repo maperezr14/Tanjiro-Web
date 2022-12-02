@@ -1214,6 +1214,7 @@ footer .content-footer .row .text-center.col-12 p {
     }
     .gallery-multiple .content-gallery .multiple-items .slick-list.draggable .slick-multiple .body-multiple-item .info-multiple-item .info-extra {
         display: inline-flex;
+        width: 100%;
     }
     .gallery-multiple .content-gallery .multiple-items .slick-list.draggable .slick-multiple .body-multiple-item .info-multiple-item .btn-see-series {
         display: inline-block;
